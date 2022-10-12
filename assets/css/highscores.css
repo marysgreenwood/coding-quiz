@@ -1,0 +1,23 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    padding: 5%;
+    border: 10px solid rgba(35, 7, 62, 0.597);
+    border-radius: 20%;
+
+}
+
+@media only screen and (min-width: 780px){
+    .wrapper {
+        margin-top: 5%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    margin-top: 40px;
+}
